@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-function oap (array $person) : bool {
+function oap (array $oaps) : bool {
 
-    return $person["age"] > 65;
+    return $oaps["age"] > 65;
 }
 
 $a = [ "name" => "Alice", "age" => 52 ];
