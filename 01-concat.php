@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 function concat (string $firstWord, string $secondWord) : string {
+    
     return $firstWord . " " . $secondWord;
 };
 
